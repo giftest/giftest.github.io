@@ -66,3 +66,35 @@ New page:
 `projects/fairaudit.html`
 
 All five featured projects now have dedicated case-study pages.
+
+
+## Version 7
+
+Recruiter-readiness and visual polish update:
+
+- added Research & Impact metrics section
+- upgraded publication cards and research-profile links
+- added Awards / Recognition section
+- expanded professional contact options
+- retained all five project case studies
+
+
+## Version 8
+
+Corrected missing recognition content and added:
+
+### Certifications
+- CompTIA Security Certification
+- Cybersecurity Threats and Defense Certification
+- Cybersecurity Operations and Controls Certification
+- Information Security Certification
+
+### Awards & Honors
+- NSF Travel Award (2025)
+- Certificate of Best Diplomats (2025)
+- Award for Excellence in Innovation (2020)
+- Merit Award — Exceptional Woman in Technology (2019)
+- STEM Outstanding Achievement Award (2018)
+- Dean's Award for Academic Excellence (2015)
+
+Also added Certifications and Awards links to the main navigation.
