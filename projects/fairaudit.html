@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FairAudit — causal explanation and mitigation framework for intersectional bias by Gift A. Nwatuzie." />
+  <title>FairAudit | Gift A. Nwatuzie</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark">GN</span>
+      <span class="brand-text">Gift A. Nwatuzie</span>
+    </a>
+
+    <nav class="nav-links project-nav">
+      <a href="../index.html#projects">All Projects</a>
+      <a href="../index.html#publications">Publications</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">◐</button>
+  </div>
+</header>
+
+<main>
+
+<section class="project-hero section">
+  <div class="container">
+    <a class="back-link" href="../index.html#projects">← Back to projects</a>
+
+    <p class="eyebrow">RESPONSIBLE AI • CAUSAL ANALYSIS • INTERSECTIONAL FAIRNESS • EXPLAINABILITY</p>
+
+    <h1>FairAudit</h1>
+
+    <p class="project-lead">
+      A causal explanation framework for diagnosing and mitigating intersectional bias
+      through subgroup-aware analysis, Shapley-based attribution, and targeted fairness interventions.
+    </p>
+
+    <div class="project-summary-grid">
+      <div><span>FOCUS</span><strong>Responsible AI</strong></div>
+      <div><span>METHOD</span><strong>Causal Shapley Analysis</strong></div>
+      <div><span>DATASETS</span><strong>ACSIncome + CelebA</strong></div>
+      <div><span>GOAL</span><strong>Diagnose + Mitigate Bias</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-muted">
+  <div class="container project-layout">
+
+    <aside class="project-sidebar">
+      <div class="sidebar-card">
+        <p class="mini-label">KEY RESULT</p>
+
+        <div class="result-block">
+          <strong>52%</strong>
+          <span>Greater reduction in intersectional disparity than leading baselines</span>
+        </div>
+
+        <div class="result-block">
+          <strong>2-Stage</strong>
+          <span>Diagnostic + mitigation workflow</span>
+        </div>
+
+        <div class="result-block">
+          <strong>Causal</strong>
+          <span>Subgroup-aware Shapley attribution</span>
+        </div>
+
+        <div class="result-block">
+          <strong>Audit Trail</strong>
+          <span>Transparent explanation of subgroup disparities</span>
+        </div>
+      </div>
+    </aside>
+
+    <div class="project-content">
+
+      <section class="case-section">
+        <p class="eyebrow">THE PROBLEM</p>
+        <h2>Single-attribute fairness can hide harmful intersectional disparities.</h2>
+
+        <p>
+          A model may appear fair when protected attributes are evaluated independently,
+          while still producing substantial disparities for users who belong to multiple
+          protected groups at the same time. FairAudit addresses this problem by focusing
+          directly on intersectional subgroups and the factors that contribute to unequal outcomes.
+        </p>
+      </section>
+
+      <section class="case-section">
+        <p class="eyebrow">FRAMEWORK</p>
+        <h2>A two-stage pipeline for diagnosis and targeted mitigation.</h2>
+
+        <div class="architecture-flow">
+          <div class="arch-node">
+            <span>01</span>
+            <strong>Subgroup Discovery</strong>
+            <small>Identify intersectional protected-attribute groups.</small>
+          </div>
+
+          <div class="arch-arrow">→</div>
+
+          <div class="arch-node">
+            <span>02</span>
+            <strong>Causal Diagnosis</strong>
+            <small>Estimate subgroup-aware Shapley contributions to disparity.</small>
+          </div>
+
+          <div class="arch-arrow">→</div>
+
+          <div class="arch-node">
+            <span>03</span>
+            <strong>Audit Report</strong>
+            <small>Produce interpretable evidence about drivers of unfairness.</small>
+          </div>
+
+          <div class="arch-arrow">→</div>
+
+          <div class="arch-node">
+            <span>04</span>
+            <strong>Targeted Mitigation</strong>
+            <small>Apply subgroup-specific constraints informed by the diagnosis.</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <p class="eyebrow">TECHNICAL CONTRIBUTIONS</p>
+        <h2>Making fairness analysis more actionable and interpretable.</h2>
+
+        <div class="case-grid">
+          <article class="case-card">
+            <h3>Intersectional Auditing</h3>
+            <p>
+              Evaluated fairness across combinations of protected attributes rather than
+              relying only on single-attribute comparisons.
+            </p>
+          </article>
+
+          <article class="case-card">
+            <h3>Causal Attribution</h3>
+            <p>
+              Used causal Shapley-style attribution to identify which feature interactions
+              contribute most strongly to subgroup disparities.
+            </p>
+          </article>
+
+          <article class="case-card">
+            <h3>Targeted Mitigation</h3>
+            <p>
+              Derived subgroup-specific mitigation constraints from the diagnostic stage
+              instead of applying the same penalty uniformly across all groups.
+            </p>
+          </article>
+
+          <article class="case-card">
+            <h3>Transparent Audit Trail</h3>
+            <p>
+              Structured the workflow so fairness findings can be traced from diagnosis
+              to mitigation and evaluated using explicit subgroup metrics.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <p class="eyebrow">EVALUATION</p>
+        <h2>Fairness improvement without sacrificing predictive utility.</h2>
+
+        <p>
+          FairAudit was evaluated on ACSIncome and CelebA using subgroup disparity metrics,
+          including maximum subgroup disparity, average absolute disparity, disparity reduction,
+          and accuracy-fairness trade-off measures.
+        </p>
+
+        <div class="result-table">
+          <div class="result-row result-head">
+            <span>Evaluation Area</span>
+            <span>Reported Outcome</span>
+          </div>
+
+          <div class="result-row">
+            <span>Intersectional disparity reduction</span>
+            <strong>52% greater than leading baselines</strong>
+          </div>
+
+          <div class="result-row">
+            <span>Predictive utility</span>
+            <strong>Maintained in reported experiments</strong>
+          </div>
+
+          <div class="result-row">
+            <span>Datasets</span>
+            <strong>ACSIncome + CelebA</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <p class="eyebrow">WHY THIS MATTERS</p>
+        <h2>Responsible AI needs explanations that lead to concrete engineering decisions.</h2>
+
+        <p>
+          Fairness metrics can identify that a problem exists, but they do not always explain
+          why it exists or what should change. FairAudit was designed to connect measurement,
+          explanation, and mitigation so that model developers have a more actionable path
+          from detecting unfair behavior to improving the system.
+        </p>
+      </section>
+
+      <section class="case-section">
+        <p class="eyebrow">ENGINEERING TAKEAWAY</p>
+        <h2>Trustworthy AI is a systems problem, not just a metric-selection problem.</h2>
+
+        <p>
+          This project reflects my broader approach to AI engineering: performance,
+          explainability, fairness, and deployment risk should be considered together.
+          Building trustworthy systems requires technical mechanisms that help teams
+          diagnose problems, communicate evidence, and make targeted improvements.
+        </p>
+      </section>
+
+      <section class="case-section project-cta">
+        <div>
+          <p class="eyebrow">PROJECT COLLECTION</p>
+          <h2>You’ve reached the final featured case study.</h2>
+        </div>
+
+        <div class="contact-actions">
+          <a class="btn btn-secondary" href="network-monitoring.html">Previous Project</a>
+          <a class="btn btn-primary" href="../index.html#projects">All Projects</a>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <p>© <span id="year"></span> Gift A. Nwatuzie.</p>
+    <a href="../index.html">Home ↑</a>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

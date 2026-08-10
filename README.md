@@ -49,3 +49,20 @@ Added a full Deep Learning for Network Monitoring case study:
 
 New page:
 `projects/network-monitoring.html`
+
+
+## Version 6
+
+Added a full FairAudit case study:
+
+- intersectional fairness auditing
+- causal Shapley attribution
+- subgroup-aware diagnosis
+- targeted mitigation
+- ACSIncome and CelebA evaluation
+- reported 52% greater disparity reduction than leading baselines
+
+New page:
+`projects/fairaudit.html`
+
+All five featured projects now have dedicated case-study pages.
