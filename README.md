@@ -35,3 +35,17 @@ Added a full Machine Vision + IoT Sensing case study:
 
 New page:
 `projects/machine-vision-iot.html`
+
+
+## Version 5
+
+Added a full Deep Learning for Network Monitoring case study:
+
+- anomaly detection
+- intelligent data recovery
+- benchmark cybersecurity evaluation
+- operational reliability
+- network resilience
+
+New page:
+`projects/network-monitoring.html`
