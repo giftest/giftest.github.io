@@ -20,3 +20,18 @@ Upload the contents of this folder to the root of `giftest.github.io`, preservin
 
 ## Version 3
 Added a full Bias-Aware Recommendation System case study at `projects/recommendation-system.html`.
+
+
+## Version 4
+
+Added a full Machine Vision + IoT Sensing case study:
+
+- multimodal AI workflow
+- computer vision classification and segmentation
+- IoT sensing integration
+- edge deployment
+- reported 94.8% classification accuracy
+- reported 87.6% mean IoU
+
+New page:
+`projects/machine-vision-iot.html`
