@@ -1,0 +1,1 @@
+Add professional photo and project diagrams here.
