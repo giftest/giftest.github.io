@@ -176,3 +176,29 @@ html[data-theme="dark"]{--bg:#0c111b;--surface:#121a27;--surface2:#0f1724;--text
     grid-template-columns:1fr;
   }
 }
+
+
+/* ---------- Version 9: verified project diagrams ---------- */
+.diagram-section { overflow: hidden; }
+.project-diagram {
+  margin-top: 22px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  overflow: hidden;
+  background: #0f172a;
+  box-shadow: 0 18px 50px rgba(15, 23, 42, .10);
+}
+.project-diagram img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 720px) {
+  .project-diagram {
+    overflow-x: auto;
+  }
+  .project-diagram img {
+    width: 980px;
+    max-width: none;
+  }
+}

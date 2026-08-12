@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-labelledby="title desc">
+<title id="title">FairAudit: Diagnosis to Mitigation</title>
+<desc id="desc">A two-stage causal workflow for auditing and reducing intersectional disparities.</desc>
+<rect width="1280" height="430" rx="28" fill="#0f172a"/>
+<text x="55" y="62" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#f8fafc">FairAudit: Diagnosis to Mitigation</text>
+<text x="55" y="96" font-family="Arial, sans-serif" font-size="17" fill="#94a3b8">A two-stage causal workflow for auditing and reducing intersectional disparities.</text>
+<rect x="55.0" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
+<circle cx="87.0" cy="179" r="17" fill="#2563eb"/>
+<text x="87.0" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">01</text>
+<text x="77.0" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Intersectional Groups</text>
+<text x="77.0" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Identify protected-attribute</text>
+<text x="77.0" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">subgroup intersections.</text>
+<line x1="334.5" y1="237.5" x2="348.5" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
+<polygon points="348.5,237.5 338.5,230.5 338.5,244.5" fill="#60a5fa"/>
+<rect x="353.5" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
+<circle cx="385.5" cy="179" r="17" fill="#2563eb"/>
+<text x="385.5" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">02</text>
+<text x="375.5" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Causal Diagnosis</text>
+<text x="375.5" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Use subgroup-aware Shapley</text>
+<text x="375.5" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">attribution to explain</text>
+<text x="375.5" y="294" font-family="Arial" font-size="14" fill="#cbd5e1">disparity.</text>
+<line x1="633.0" y1="237.5" x2="647.0" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
+<polygon points="647.0,237.5 637.0,230.5 637.0,244.5" fill="#60a5fa"/>
+<rect x="652.0" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
+<circle cx="684.0" cy="179" r="17" fill="#2563eb"/>
+<text x="684.0" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">03</text>
+<text x="674.0" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Audit Report</text>
+<text x="674.0" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Trace feature interactions and</text>
+<text x="674.0" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">subgroup fairness evidence.</text>
+<line x1="931.5" y1="237.5" x2="945.5" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
+<polygon points="945.5,237.5 935.5,230.5 935.5,244.5" fill="#60a5fa"/>
+<rect x="950.5" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
+<circle cx="982.5" cy="179" r="17" fill="#2563eb"/>
+<text x="982.5" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">04</text>
+<text x="972.5" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Targeted Mitigation</text>
+<text x="972.5" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Apply subgroup-specific</text>
+<text x="972.5" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">constraints informed by</text>
+<text x="972.5" y="294" font-family="Arial" font-size="14" fill="#cbd5e1">diagnosis.</text>
+<text x="55" y="390" font-family="Arial" font-size="14" fill="#64748b">Portfolio architecture diagram • Gift A. Nwatuzie</text>
+</svg>

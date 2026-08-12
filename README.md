@@ -98,3 +98,9 @@ Corrected missing recognition content and added:
 - Dean's Award for Academic Excellence (2015)
 
 Also added Certifications and Awards links to the main navigation.
+
+
+## Version 9 — Verified project diagrams
+Added responsive architecture/workflow diagrams to all five project case studies.
+The diagrams use only project descriptions and results already represented in the portfolio;
+illustrative metrics from earlier visual mockups were not carried into the live site.
