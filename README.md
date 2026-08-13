@@ -104,3 +104,33 @@ Also added Certifications and Awards links to the main navigation.
 Added responsive architecture/workflow diagrams to all five project case studies.
 The diagrams use only project descriptions and results already represented in the portfolio;
 illustrative metrics from earlier visual mockups were not carried into the live site.
+
+
+## Version 10 — Distinct project visualizations
+
+- Removed duplicate workflow/architecture sections from project pages.
+- Removed the diagram footer/signature text.
+- Federated Learning now uses a system architecture.
+- Recommendation System uses an ML workflow.
+- Machine Vision + IoT uses a multimodal architecture.
+- Network Monitoring uses a processing workflow.
+- FairAudit uses a two-stage framework.
+
+
+## Version 11 — Project-specific technical diagrams
+Redesigned all five visualizations so the visual structure reflects each project's technical structure:
+distributed FL architecture, fairness-feedback recommendation architecture, parallel multimodal sensing,
+branched network-monitoring workflow, and detailed two-stage FairAudit framework.
+
+
+## Version 12 — Arrow routing correction
+Only the Federated Learning and FairAudit diagrams were adjusted.
+Feedback arrows now use dedicated lower lanes and no longer cross their explanatory labels.
+The other three project diagrams remain unchanged from Version 11.
+
+
+## Version 13 — Duplicate feedback arrow fix
+- Federated Learning now has one green global-model return arrow.
+- FairAudit now has one green evaluation feedback arrow.
+- The purple Stage 1 → Stage 2 transition in FairAudit remains unchanged.
+- All other diagrams and portfolio content are unchanged.

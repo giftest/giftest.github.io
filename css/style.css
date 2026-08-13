@@ -202,3 +202,23 @@ html[data-theme="dark"]{--bg:#0c111b;--surface:#121a27;--surface2:#0f1724;--text
     max-width: none;
   }
 }
+
+
+/* ---------- Version 10: distinct technical visualizations ---------- */
+.project-diagram img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 720px) {
+  .project-diagram {
+    overflow-x: auto;
+  }
+
+  .project-diagram img {
+    width: 900px;
+    max-width: none;
+  }
+}

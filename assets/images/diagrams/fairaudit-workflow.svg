@@ -1,40 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-labelledby="title desc">
-<title id="title">FairAudit: Diagnosis to Mitigation</title>
-<desc id="desc">A two-stage causal workflow for auditing and reducing intersectional disparities.</desc>
-<rect width="1280" height="430" rx="28" fill="#0f172a"/>
-<text x="55" y="62" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#f8fafc">FairAudit: Diagnosis to Mitigation</text>
-<text x="55" y="96" font-family="Arial, sans-serif" font-size="17" fill="#94a3b8">A two-stage causal workflow for auditing and reducing intersectional disparities.</text>
-<rect x="55.0" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="87.0" cy="179" r="17" fill="#2563eb"/>
-<text x="87.0" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">01</text>
-<text x="77.0" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Intersectional Groups</text>
-<text x="77.0" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Identify protected-attribute</text>
-<text x="77.0" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">subgroup intersections.</text>
-<line x1="334.5" y1="237.5" x2="348.5" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
-<polygon points="348.5,237.5 338.5,230.5 338.5,244.5" fill="#60a5fa"/>
-<rect x="353.5" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="385.5" cy="179" r="17" fill="#2563eb"/>
-<text x="385.5" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">02</text>
-<text x="375.5" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Causal Diagnosis</text>
-<text x="375.5" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Use subgroup-aware Shapley</text>
-<text x="375.5" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">attribution to explain</text>
-<text x="375.5" y="294" font-family="Arial" font-size="14" fill="#cbd5e1">disparity.</text>
-<line x1="633.0" y1="237.5" x2="647.0" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
-<polygon points="647.0,237.5 637.0,230.5 637.0,244.5" fill="#60a5fa"/>
-<rect x="652.0" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="684.0" cy="179" r="17" fill="#2563eb"/>
-<text x="684.0" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">03</text>
-<text x="674.0" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Audit Report</text>
-<text x="674.0" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Trace feature interactions and</text>
-<text x="674.0" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">subgroup fairness evidence.</text>
-<line x1="931.5" y1="237.5" x2="945.5" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
-<polygon points="945.5,237.5 935.5,230.5 935.5,244.5" fill="#60a5fa"/>
-<rect x="950.5" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="982.5" cy="179" r="17" fill="#2563eb"/>
-<text x="982.5" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">04</text>
-<text x="972.5" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Targeted Mitigation</text>
-<text x="972.5" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Apply subgroup-specific</text>
-<text x="972.5" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">constraints informed by</text>
-<text x="972.5" y="294" font-family="Arial" font-size="14" fill="#cbd5e1">diagnosis.</text>
-<text x="55" y="390" font-family="Arial" font-size="14" fill="#64748b">Portfolio architecture diagram • Gift A. Nwatuzie</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img">
+<rect width="1280" height="640" rx="28" fill="#0f172a"/>
+<text x="48" y="55" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#f8fafc">FairAudit: Causal Diagnosis and Targeted Mitigation</text>
+<text x="48" y="88" font-family="Arial,sans-serif" font-size="16" fill="#94a3b8">Detailed two-stage framework for intersectional fairness auditing, causal explanation, mitigation, and validation.</text>
+<rect x="35" y="125" width="1210" height="205" rx="22" fill="#131a31" stroke="#4c1d95" stroke-width="2"/><text x="60" y="158" font-family="Arial" font-size="16" font-weight="700" fill="#c4b5fd">STAGE 1 — DIAGNOSTIC AUDIT</text><rect x="55" y="185" width="195" height="105" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="55" y="185" width="7" height="105" rx="4" fill="#7c3aed"/><text x="77" y="219" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Dataset / Predictions</text><text x="77" y="247" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Model outputs and</text><text x="77" y="267" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">protected attributes</text><rect x="285" y="185" width="195" height="105" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="285" y="185" width="7" height="105" rx="4" fill="#7c3aed"/><text x="307" y="219" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Intersectional Groups</text><text x="307" y="247" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Construct protected</text><text x="307" y="267" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">subgroup intersections</text><rect x="515" y="185" width="195" height="105" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="515" y="185" width="7" height="105" rx="4" fill="#7c3aed"/><text x="537" y="219" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Disparity Measurement</text><text x="537" y="247" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Quantify subgroup</text><text x="537" y="267" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">fairness gaps</text><rect x="745" y="185" width="195" height="105" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="745" y="185" width="7" height="105" rx="4" fill="#7c3aed"/><text x="767" y="219" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Causal Shapley Analysis</text><text x="767" y="247" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Diagnose subgroup</text><text x="767" y="267" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">disparity drivers</text><rect x="975" y="185" width="195" height="105" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="975" y="185" width="7" height="105" rx="4" fill="#7c3aed"/><text x="997" y="219" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Structured Audit Report</text><text x="997" y="247" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Record feature effects</text><text x="997" y="267" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">and interactions</text><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><line x1="250" y1="237" x2="285" y2="237" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#arr)"/><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><line x1="480" y1="237" x2="515" y2="237" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#arr)"/><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><line x1="710" y1="237" x2="745" y2="237" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#arr)"/><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><line x1="940" y1="237" x2="975" y2="237" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#arr)"/><rect x="35" y="365" width="1210" height="190" rx="22" fill="#10251f" stroke="#065f46" stroke-width="2"/><text x="60" y="398" font-family="Arial" font-size="16" font-weight="700" fill="#6ee7b7">STAGE 2 — TARGETED MITIGATION &amp; VALIDATION</text><rect x="170" y="430" width="200" height="100" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="170" y="430" width="7" height="100" rx="4" fill="#059669"/><text x="192" y="464" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Targeted Constraints</text><text x="192" y="492" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Subgroup-specific</text><text x="192" y="512" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">mitigation informed</text><text x="192" y="532" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">by the audit</text><rect x="475" y="430" width="200" height="100" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="475" y="430" width="7" height="100" rx="4" fill="#059669"/><text x="497" y="464" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Model Adjustment</text><text x="497" y="492" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Apply mitigation /</text><text x="497" y="512" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">retrain or adjust</text><rect x="780" y="430" width="200" height="100" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="780" y="430" width="7" height="100" rx="4" fill="#059669"/><text x="802" y="464" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Post-Mitigation Audit</text><text x="802" y="492" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Recompute disparity</text><text x="802" y="512" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">and predictive utility</text><rect x="1050" y="430" width="165" height="100" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="1050" y="430" width="7" height="100" rx="4" fill="#059669"/><text x="1072" y="464" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Final Comparison</text><text x="1072" y="492" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Compare fairness</text><text x="1072" y="512" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">and model utility</text><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><line x1="370" y1="480" x2="475" y2="480" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#arr)"/><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><line x1="675" y1="480" x2="780" y2="480" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#arr)"/><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><line x1="980" y1="480" x2="1050" y2="480" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#arr)"/><defs><marker id="fa1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#a78bfa"/></marker></defs><path d="M 1070 290 C 1070 340, 270 340, 270 430" fill="none" stroke="#a78bfa" stroke-width="3.5" marker-end="url(#fa1)"/>
+
+
+
+
+
+
+<text x="690" y="570" font-family="Arial,sans-serif" font-size="13" fill="#6ee7b7">
+  Evaluation can inform another mitigation iteration when needed
+</text>
+<defs>
+  <marker id="fa2v13" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#34d399"/>
+  </marker>
+</defs>
+<path d="M 1110 500
+         C 1110 590, 980 610, 835 610
+         L 735 610
+         C 655 610, 605 575, 605 505"
+      fill="none"
+      stroke="#34d399"
+      stroke-width="3.5"
+      marker-end="url(#fa2v13)"/>
+
 </svg>

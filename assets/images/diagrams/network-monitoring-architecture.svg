@@ -1,39 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-labelledby="title desc">
-<title id="title">Deep Learning Network Monitoring</title>
-<desc id="desc">A monitoring pipeline combining anomaly detection with intelligent data recovery.</desc>
-<rect width="1280" height="430" rx="28" fill="#0f172a"/>
-<text x="55" y="62" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#f8fafc">Deep Learning Network Monitoring</text>
-<text x="55" y="96" font-family="Arial, sans-serif" font-size="17" fill="#94a3b8">A monitoring pipeline combining anomaly detection with intelligent data recovery.</text>
-<rect x="55.0" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="87.0" cy="179" r="17" fill="#2563eb"/>
-<text x="87.0" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">01</text>
-<text x="77.0" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Network Data</text>
-<text x="77.0" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Ingest monitoring records and</text>
-<text x="77.0" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">network observations.</text>
-<line x1="334.5" y1="237.5" x2="348.5" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
-<polygon points="348.5,237.5 338.5,230.5 338.5,244.5" fill="#60a5fa"/>
-<rect x="353.5" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="385.5" cy="179" r="17" fill="#2563eb"/>
-<text x="385.5" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">02</text>
-<text x="375.5" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Deep Learning</text>
-<text x="375.5" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Learn patterns in normal and</text>
-<text x="375.5" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">abnormal behavior.</text>
-<line x1="633.0" y1="237.5" x2="647.0" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
-<polygon points="647.0,237.5 637.0,230.5 637.0,244.5" fill="#60a5fa"/>
-<rect x="652.0" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="684.0" cy="179" r="17" fill="#2563eb"/>
-<text x="684.0" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">03</text>
-<text x="674.0" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Anomaly Detection</text>
-<text x="674.0" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Identify suspicious or</text>
-<text x="674.0" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">unexpected network activity.</text>
-<line x1="931.5" y1="237.5" x2="945.5" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
-<polygon points="945.5,237.5 935.5,230.5 935.5,244.5" fill="#60a5fa"/>
-<rect x="950.5" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="982.5" cy="179" r="17" fill="#2563eb"/>
-<text x="982.5" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">04</text>
-<text x="972.5" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Data Recovery</text>
-<text x="972.5" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Support reconstruction of</text>
-<text x="972.5" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">missing or degraded monitoring</text>
-<text x="972.5" y="294" font-family="Arial" font-size="14" fill="#cbd5e1">data.</text>
-<text x="55" y="390" font-family="Arial" font-size="14" fill="#64748b">Portfolio architecture diagram • Gift A. Nwatuzie</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="610" viewBox="0 0 1280 610" role="img">
+<rect width="1280" height="610" rx="28" fill="#0f172a"/>
+<text x="48" y="55" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#f8fafc">Deep Learning for Network Monitoring</text>
+<text x="48" y="88" font-family="Arial,sans-serif" font-size="16" fill="#94a3b8">Branched system workflow: a shared deep-learning core supports anomaly detection and intelligent data recovery.</text>
+<rect x="55" y="260" width="200" height="120" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="55" y="260" width="7" height="120" rx="4" fill="#2563eb"/><text x="77" y="294" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Network Monitoring Data</text><text x="77" y="322" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Traffic / monitoring</text><text x="77" y="342" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">observations</text><rect x="345" y="260" width="190" height="120" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="345" y="260" width="7" height="120" rx="4" fill="#0891b2"/><text x="367" y="294" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Preprocessing</text><text x="367" y="322" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Prepare data for</text><text x="367" y="342" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">model analysis</text><rect x="625" y="260" width="205" height="120" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="625" y="260" width="7" height="120" rx="4" fill="#7c3aed"/><text x="647" y="294" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Deep Learning Core</text><text x="647" y="322" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Learn patterns in</text><text x="647" y="342" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">monitoring data</text><rect x="930" y="145" width="235" height="120" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="930" y="145" width="7" height="120" rx="4" fill="#ef4444"/><text x="952" y="179" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Anomaly Detection</text><text x="952" y="207" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Identify suspicious</text><text x="952" y="227" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">or abnormal behavior</text><rect x="930" y="390" width="235" height="120" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="930" y="390" width="7" height="120" rx="4" fill="#16a34a"/><text x="952" y="424" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Data Recovery</text><text x="952" y="452" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Reconstruct missing</text><text x="952" y="472" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">or degraded data</text><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><line x1="255" y1="320" x2="345" y2="320" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#arr)"/><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><line x1="535" y1="320" x2="625" y2="320" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#arr)"/><defs><marker id="n1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><path d="M 830 300 C 875 285, 880 220, 930 205" fill="none" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#n1)"/><defs><marker id="n2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><path d="M 830 340 C 875 355, 880 435, 930 450" fill="none" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#n2)"/><text x="920" y="105" font-family="Arial" font-size="14" font-weight="700" fill="#fca5a5">SECURITY ANALYSIS PATH</text><text x="920" y="555" font-family="Arial" font-size="14" font-weight="700" fill="#86efac">RECOVERY PATH</text>
 </svg>

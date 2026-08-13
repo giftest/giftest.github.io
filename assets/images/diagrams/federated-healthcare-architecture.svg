@@ -1,40 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-labelledby="title desc">
-<title id="title">Secure Federated Healthcare Learning</title>
-<desc id="desc">Privacy-preserving collaborative prediction without centralizing patient records.</desc>
-<rect width="1280" height="430" rx="28" fill="#0f172a"/>
-<text x="55" y="62" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#f8fafc">Secure Federated Healthcare Learning</text>
-<text x="55" y="96" font-family="Arial, sans-serif" font-size="17" fill="#94a3b8">Privacy-preserving collaborative prediction without centralizing patient records.</text>
-<rect x="55.0" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="87.0" cy="179" r="17" fill="#2563eb"/>
-<text x="87.0" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">01</text>
-<text x="77.0" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Local Healthcare Data</text>
-<text x="77.0" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Framingham / Cleveland data</text>
-<text x="77.0" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">remains decentralized.</text>
-<line x1="334.5" y1="237.5" x2="348.5" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
-<polygon points="348.5,237.5 338.5,230.5 338.5,244.5" fill="#60a5fa"/>
-<rect x="353.5" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="385.5" cy="179" r="17" fill="#2563eb"/>
-<text x="385.5" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">02</text>
-<text x="375.5" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Local Model Training</text>
-<text x="375.5" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Each client computes local</text>
-<text x="375.5" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">model updates.</text>
-<line x1="633.0" y1="237.5" x2="647.0" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
-<polygon points="647.0,237.5 637.0,230.5 637.0,244.5" fill="#60a5fa"/>
-<rect x="652.0" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="684.0" cy="179" r="17" fill="#2563eb"/>
-<text x="684.0" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">03</text>
-<text x="674.0" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Privacy Protection</text>
-<text x="674.0" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Differential privacy, encrypted</text>
-<text x="674.0" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">updates, and secure</text>
-<text x="674.0" y="294" font-family="Arial" font-size="14" fill="#cbd5e1">aggregation.</text>
-<line x1="931.5" y1="237.5" x2="945.5" y2="237.5" stroke="#60a5fa" stroke-width="4"/>
-<polygon points="945.5,237.5 935.5,230.5 935.5,244.5" fill="#60a5fa"/>
-<rect x="950.5" y="145" width="274.5" height="185" rx="20" fill="#111c33" stroke="#334155" stroke-width="2"/>
-<circle cx="982.5" cy="179" r="17" fill="#2563eb"/>
-<text x="982.5" y="185" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="white">04</text>
-<text x="972.5" y="221" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Global Learning</text>
-<text x="972.5" y="254" font-family="Arial" font-size="14" fill="#cbd5e1">Protected updates are</text>
-<text x="972.5" y="274" font-family="Arial" font-size="14" fill="#cbd5e1">aggregated into the shared</text>
-<text x="972.5" y="294" font-family="Arial" font-size="14" fill="#cbd5e1">model.</text>
-<text x="55" y="390" font-family="Arial" font-size="14" fill="#64748b">Portfolio architecture diagram • Gift A. Nwatuzie</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="650" viewBox="0 0 1280 650" role="img">
+<rect width="1280" height="650" rx="28" fill="#0f172a"/>
+<text x="48" y="55" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#f8fafc">Federated Learning for Secure Healthcare Analytics</text>
+<text x="48" y="88" font-family="Arial,sans-serif" font-size="16" fill="#94a3b8">Distributed architecture: local training, privacy protection, secure aggregation, and iterative global learning.</text>
+<rect x="55" y="155" width="225" height="100" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="55" y="155" width="7" height="100" rx="4" fill="#2563eb"/><text x="77" y="189" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Hospital / Client A</text><text x="77" y="217" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Local healthcare data</text><text x="77" y="237" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Local model training</text><rect x="55" y="325" width="225" height="100" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="55" y="325" width="7" height="100" rx="4" fill="#2563eb"/><text x="77" y="359" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Hospital / Client B</text><text x="77" y="387" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Local healthcare data</text><text x="77" y="407" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Local model training</text><rect x="55" y="495" width="225" height="100" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="55" y="495" width="7" height="100" rx="4" fill="#2563eb"/><text x="77" y="529" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Hospital / Client K</text><text x="77" y="557" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Local healthcare data</text><text x="77" y="577" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Local model training</text><rect x="390" y="285" width="245" height="130" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="390" y="285" width="7" height="130" rx="4" fill="#0891b2"/><text x="412" y="319" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Privacy Protection</text><text x="412" y="347" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Differential privacy</text><text x="412" y="367" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Encrypted model updates</text><text x="412" y="387" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Secure aggregation</text><rect x="745" y="285" width="205" height="130" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="745" y="285" width="7" height="130" rx="4" fill="#7c3aed"/><text x="767" y="319" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Server Aggregation</text><text x="767" y="347" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Combine protected</text><text x="767" y="367" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">client updates</text><rect x="1050" y="285" width="180" height="130" rx="18" fill="#111c33" stroke="#334155" stroke-width="2"/><rect x="1050" y="285" width="7" height="130" rx="4" fill="#16a34a"/><text x="1072" y="319" font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#f8fafc">Global Model</text><text x="1072" y="347" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">Updated shared</text><text x="1072" y="367" font-family="Arial,sans-serif" font-size="13.5" fill="#cbd5e1">prediction model</text><defs><marker id="f205" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><path d="M 280 205 C 330 205, 340 350, 390 350" fill="none" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#f205)"/><defs><marker id="f375" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><path d="M 280 375 C 330 375, 340 350, 390 350" fill="none" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#f375)"/><defs><marker id="f545" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><path d="M 280 545 C 330 545, 340 350, 390 350" fill="none" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#f545)"/><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><line x1="635" y1="350" x2="745" y2="350" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#arr)"/><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#60a5fa"/></marker></defs><line x1="950" y1="350" x2="1050" y2="350" stroke="#60a5fa" stroke-width="3.5" marker-end="url(#arr)"/>
+
+
+
+
+
+
+<text x="625" y="530" font-family="Arial,sans-serif" font-size="13" fill="#6ee7b7">
+  Global model redistributed for the next training round
+</text>
+<defs>
+  <marker id="feedbackfed13" viewBox="0 0 10 10" refX="9" refY="5"
+          markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#34d399"/>
+  </marker>
+</defs>
+<path d="M 1125 395
+         C 1125 500, 1020 565, 900 575
+         L 320 575
+         C 245 575, 195 565, 135 550"
+      fill="none"
+      stroke="#34d399"
+      stroke-width="3.5"
+      marker-end="url(#feedbackfed13)"/>
+
 </svg>
